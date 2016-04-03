@@ -1,0 +1,119 @@
+body{
+	background:#3f4a4c;
+	padding:0;
+	margin:0;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	color:#ffffff;
+}
+*{
+  	outline:none;
+  	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+	font-size: 100%;
+}
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th,figcaption{ 
+	font-weight: normal; 
+	font-style: normal; 
+}
+a{
+	text-decoration:none; 
+	outline:none;
+}
+i{
+	font-style:normal;
+	color:#ffffff;	
+}
+label {
+  	margin-top: 16px;
+  	color:#ffffff;
+  	font-size:18px;
+}
+/* Contact form */
+#tihidContainer{
+	max-width: 600px;
+	width:90%;
+  	background: #2c3134;
+  	padding: 25px;
+  	margin: 30px auto;
+	/* Code to rotate the form just the way it looks in the article picture */
+	/*
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);	
+	-ms-transform:rotate(-20deg);
+	-o-transform:rotate(-20deg);
+	transform: rotate(-20deg);*/
+}
+.formHeader{
+	witdh:100%;
+	margin-bottom:30px;
+}
+.formHeader h1{
+	font-size:32px;
+	color:#ffffff;
+	padding:0;
+	margin:0;	
+}
+.inpuWrap{
+  	margin:16px 0;
+  	display:block
+}
+input, textarea{
+	width: 100%;
+	padding: 10px;
+	font-size: 19.2px;
+	background:transparent;
+	border:none;
+	border-bottom:1px solid #ffffff;
+	color:#ffffff;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+/* Adding a yellow border to the input fields when focused */
+input:focus, textarea:focus{
+	border-bottom:1px solid #fff668;	
+}
+textarea {
+  	height: 150px;
+  	padding: 10px;
+}
+.color{
+	border:1px solid #F00 !important	
+}
+/* Submit Button */
+button{
+	margin:25px auto 0px auto;
+	display:block;
+	width: 100px;
+	height:100px;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%;
+	background: transparent;
+	border:1px solid #ffffff;
+	text-transform:uppercase;
+	font-size: 18px;
+	font-style:normal;
+	color:#ffffff;
+	cursor:pointer;
+}
+button i{
+	font-size:22px;
+}
+button:hover, button:focus {
+  	border:1px solid #fff668;
+}
+.error{
+	width:100%;
+	display:block;
+	margin-top:5px;
+	color:#ffffff;
+	padding:10px;
+	background:#f25454;
+}
+
+
